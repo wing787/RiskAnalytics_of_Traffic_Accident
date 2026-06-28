@@ -14,3 +14,12 @@ wip
     - ファイルフォーマット: CSV
     - 配信単位: 年度別
     - 座標系: 特に記載なし、緯度経度なのでWGS84(EPSG: 4326)と解釈
+## Notes
+### pre-commit
+pre-commit を使う場合は clone 後に一度だけ実行してください。
+強制ではありません。
+
+```bash
+uv sync
+uv run pre-commit install
+```

@@ -15,3 +15,9 @@ dependencies = [
     "seaborn>=0.13.2",
     "tqdm>=4.68.3",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "pre-commit-uv>=4.2.2",
+]
